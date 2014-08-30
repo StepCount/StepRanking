@@ -11,6 +11,16 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
+project(':modules:volley') {
+    buildscript {
+        repositories {
+            mavenCentral()
+        }
+        dependencies {
+            classpath 'com.android.tools.build:gradle:0.12.+'
+        }
+    }
+}
 
 allprojects {
     repositories {
