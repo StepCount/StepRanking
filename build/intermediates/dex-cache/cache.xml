@@ -2,70 +2,64 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/takam/git/StepRanking/mobile/build/intermediates/pre-dexed/debug/support-v4-19.1.0-014c370a2e4f404b301d514212e811459c365580.jar"
-        jar="/Applications/android-sdk-macosx-l/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
-    <item
-        dex="/Users/takam/git/StepRanking/mobile/build/intermediates/pre-dexed/debug/classes-96841bb1acda216266567ec41d556f15641dc042.jar"
-        jar="/Users/takam/git/StepRanking/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/5.0.77/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="80a6f6f2d0dfcfae8c424cf81dcdf7157e7bf4b8"/>
-    <item
-        dex="/Users/takam/git/StepRanking/wear/build/intermediates/pre-dexed/debug/classes-05eb4c7f32889edf3af528b0f1d9ee2bb74d4ea3.jar"
-        jar="/Users/takam/git/StepRanking/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/5.0.77/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="80a6f6f2d0dfcfae8c424cf81dcdf7157e7bf4b8"/>
-    <item
-        dex="/Users/takam/git/StepRanking/mobile/build/intermediates/pre-dexed/debug/butterknife-5.1.2-9ff03a9625faada5e78fbb2c3dc317d566d71c8b.jar"
-        jar="/Users/takam/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/5.1.2/daf5472b0df6dabaceb6ad755b3812535863965a/butterknife-5.1.2.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="daf5472b0df6dabaceb6ad755b3812535863965a"/>
-    <item
-        dex="/Users/takam/git/StepRanking/mobile/build/intermediates/pre-dexed/debug/classes-370b6be2e5528111cc0fbd237837f185894918a9.jar"
-        jar="/Users/takam/git/StepRanking/mobile/build/intermediates/exploded-aar/StepRanking.modules/volley/unspecified/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="00d359ec236c4c972f314151c4d2108dfb598912"/>
-    <item
-        dex="/Users/takam/git/StepRanking/wear/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-6cbc4b40a322bbd8b9388e78ae44f931c7ad36c7.jar"
-        jar="/Users/takam/git/StepRanking/wear/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
-    <item
-        dex="/Users/takam/git/StepRanking/wear/build/intermediates/pre-dexed/debug/classes-4391a99809970e6d13510d0b484735ae570317bf.jar"
-        jar="/Users/takam/git/StepRanking/wear/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        dex="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/wear/build/intermediates/pre-dexed/debug/classes-ac64786597c5ad5bc4aa1d1c8e0e17eb18985a95.jar"
+        jar="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/wear/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
     <item
-        dex="/Users/takam/git/StepRanking/wear/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-3e3933b02851a10b16bd4fa484fbd1f3f45989da.jar"
-        jar="/Users/takam/git/StepRanking/wear/build/intermediates/exploded-aar/com.android.support/support-v13/20.0.0/libs/internal_impl-20.0.0.jar"
+        dex="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/wear/build/intermediates/pre-dexed/debug/classes-8cf68fca3ad6901568b304b7907175936dfc99dc.jar"
+        jar="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/5.0.77/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="80a6f6f2d0dfcfae8c424cf81dcdf7157e7bf4b8"/>
+    <item
+        dex="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/mobile/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/wear/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-628f800f8a8b094945b7b39bd5795551106f2e65.jar"
+        jar="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/wear/build/intermediates/exploded-aar/com.android.support/support-v13/20.0.0/libs/internal_impl-20.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="27bbd3982cdfe4468a9bf99c8c773734a9049e33"/>
     <item
-        dex="/Users/takam/git/StepRanking/wear/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-45074af9c36106c464c17f2dac78106bd62620e3.jar"
-        jar="/Applications/android-sdk-macosx-l/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        dex="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/wear/build/intermediates/pre-dexed/debug/classes-02e00ccddf57c723b47722ec515f4b833198870e.jar"
+        jar="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6804efbb78d7facc2e1aa107c7342bee83afae45"/>
+    <item
+        dex="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/wear/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-b5bf5564692342c2e4481517be5bf66a5272dac6.jar"
+        jar="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/wear/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/wear/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-bca9cd8c8082330ef7549e0398af852faae531fd.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
     <item
-        dex="/Users/takam/git/StepRanking/wear/build/intermediates/pre-dexed/debug/classes-4197acd12f8417f2da25fe54005b9decaa2c81e6.jar"
-        jar="/Users/takam/git/StepRanking/wear/build/intermediates/exploded-aar/com.android.support/support-v13/20.0.0/classes.jar"
+        dex="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/mobile/build/intermediates/pre-dexed/debug/butterknife-5.1.2-7e00947e337eb15021cebc1c1e66c2ce0afda4e0.jar"
+        jar="/Users/kyo-tsuda/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/5.1.2/daf5472b0df6dabaceb6ad755b3812535863965a/butterknife-5.1.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="daf5472b0df6dabaceb6ad755b3812535863965a"/>
+    <item
+        dex="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/wear/build/intermediates/pre-dexed/debug/classes-9d1e356a881e507447bd27c7ccb3165c00824d21.jar"
+        jar="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/wear/build/intermediates/exploded-aar/com.android.support/support-v13/20.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="e128103d5281ddd26195a7f980b36d0d005a4e56"/>
     <item
-        dex="/Users/takam/git/StepRanking/wear/build/intermediates/pre-dexed/debug/classes-71b33a17eb3d47db69a5fa815a98f29312f371bd.jar"
-        jar="/Users/takam/git/StepRanking/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.0.0/classes.jar"
+        dex="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/mobile/build/intermediates/pre-dexed/debug/classes-ea986e4da529869abc768bf1a46a5f53ef0469fa.jar"
+        jar="/Users/kyo-tsuda/AndroidStudioProjects/StepRaning/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/5.0.77/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="6804efbb78d7facc2e1aa107c7342bee83afae45"/>
+        sha1="80a6f6f2d0dfcfae8c424cf81dcdf7157e7bf4b8"/>
 
 </pre-dex-items>

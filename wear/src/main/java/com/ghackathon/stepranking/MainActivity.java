@@ -147,4 +147,6 @@ public class MainActivity extends Activity implements SensorEventListener {
         mSensorManager.unregisterListener(this,mStepConterSensor);
         mSensorManager.unregisterListener(this,mStepDetectorSensor);
     }
+
+
 }

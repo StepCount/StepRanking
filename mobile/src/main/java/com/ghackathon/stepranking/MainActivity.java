@@ -12,12 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.Volley;
+import com.google.android.gms.wearable.MessageEvent;
 
 import org.json.JSONObject;
 
@@ -29,9 +24,10 @@ import butterknife.OnClick;
 
 public class MainActivity extends Activity {
     public static final String NAME_PREFERENCE_KEY = "user_name";
+
+    public static final String START_ACTIVITY_PATH = "/start/MainActivity";
     @InjectView(R.id.textName)
     EditText nameEditText;
-    private RequestQueue mQueue;
 
     @OnClick(R.id.buttonNameSubmit)
     protected void onSubmitted(View view) {
@@ -53,27 +49,8 @@ public class MainActivity extends Activity {
         }
 
 
-        // 東京都の天気情報
-        String url = "http://weather.livedoor.com/forecast/webservice/json/v1?city=130010";
-
-        mQueue = Volley.newRequestQueue(this);
-        mQueue.add(new JsonObjectRequest(Request.Method.GET, url, null,
-                new Response.Listener<JSONObject>() {
-                    @Override
-                    public void onResponse(JSONObject response) {
-                    }
-                },
-
-                new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        // エラー処理 error.networkResponseで確認
-                        // エラー表示など
-                        Toast.makeText(MainActivity.this,"ok",Toast.LENGTH_LONG).show();
-                    }
-                }
-        ));
     }
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -99,5 +76,14 @@ public class MainActivity extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+//    @Override
+//    public void onMessageReceived(MessageEvent messageEvent) {
+//        if (messageEvent.getPath().equals(START_ACTIVITY_PATH)) {
+//            Intent startIntent = new Intent(this, MainActivity.class);
+//            startIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//            startActivity(startIntent);
+//        }
+//    }
 
 }
